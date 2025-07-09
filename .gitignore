@@ -1,0 +1,20 @@
+config.php
+
+# File sementara atau sampah
+*.bak
+*.tmp
+*.old
+
+# OS & editor
+.DS_Store
+Thumbs.db
+
+# Jika suatu saat pakai Composer atau Node
+/vendor/
+/node_modules/
+
+# Env file (kalau dipakai)
+.env
+
+# Folder upload (kalau ada)
+uploads/

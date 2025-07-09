@@ -1,0 +1,104 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #a7d477;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  width: 400px; /* Lebar lebih kecil, sederhana */
+  min-height: 420px; /* Tinggi minimum cukup */
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.right-panel {
+  flex: 1;
+  background: #f8ffe5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 24px; /* Padding cukup, tidak terlalu besar */
+}
+
+.login-box {
+  width: 100%;
+  max-width: 280px; /* Lebar form lebih kecil */
+  background: transparent;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-box h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.login-box .icon-user {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 14px; /* Jarak antar form lebih renggang */
+}
+
+label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 9px 10px;
+  border: 1.5px solid #222;
+  border-radius: 8px;
+  background: #e0e0e0;
+  font-size: 1rem;
+  outline: none;
+  margin-bottom: 2px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #000;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px 0;
+  background: #222;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.2s;
+}
+
+.btn:hover {
+  background: #444;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0.95rem;
+}

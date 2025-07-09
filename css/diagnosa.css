@@ -1,0 +1,105 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f8fff0;
+  margin: 0;
+  padding: 0;
+}
+
+.diagnosa-container {
+  max-width: 480px;
+  margin: 48px auto 24px auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 32px rgba(120, 160, 60, 0.07), 0 1.5px 6px rgba(120, 160, 60, 0.09);
+  padding: 32px 32px 28px 32px;
+  text-align: center;
+}
+
+.diagnosa-title {
+  color: #5a972d;
+  margin-bottom: 26px;
+  letter-spacing: 1px;
+  font-size: 2.1em;
+}
+
+.diagnosa-hasil {
+  background: #f2ffea;
+  border: 1.5px solid #b3e5a3;
+  border-radius: 12px;
+  padding: 18px 0;
+  margin-bottom: 22px;
+  font-size: 1.25em;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  align-items: center;
+}
+
+.diagnosa-label {
+  font-weight: bold;
+  color: #5a972d;
+}
+
+.diagnosa-value {
+  color: #2b5c05;
+  font-weight: 600;
+}
+
+.diagnosa-gejala {
+  background: #e9fbe4;
+  border-radius: 12px;
+  padding: 16px 16px 10px 16px;
+  margin-bottom: 22px;
+  text-align: left;
+  border: 1.2px solid #b3e5a3;
+  font-size: 1.08em;
+}
+
+.diagnosa-gejala-list {
+  margin: 8px 0 0 0;
+  padding-left: 18px;
+}
+
+.diagnosa-gejala-list li {
+  margin-bottom: 6px;
+  font-size: 1em;
+  color: #355b19;
+}
+
+.btn-kembali {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 10px 32px;
+  background: linear-gradient(90deg, #8fd86c 40%, #5a972d 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1em;
+  text-decoration: none;
+  transition: background 0.2s;
+  box-shadow: 0 2px 5px rgba(120, 160, 60, 0.09);
+}
+
+.btn-kembali:hover {
+  background: linear-gradient(90deg, #5a972d 30%, #7ebd4e 100%);
+}
+
+.btn-laporan {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 10px 32px;
+  background: linear-gradient(90deg, #8fd86c 40%, #5a972d 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1em;
+  text-decoration: none;
+  transition: background 0.2s;
+  box-shadow: 0 2px 5px rgba(120, 160, 60, 0.09);
+}
+
+.btn-laporan:hover {
+  background: linear-gradient(90deg, #5a972d 30%, #7ebd4e 100%);
+}

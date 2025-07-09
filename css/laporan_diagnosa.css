@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8fff0;
+  color: #222;
+}
+.laporan-container {
+  width: 70%;
+  max-width: 500px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 35px 40px 40px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  position: relative;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 32px;
+  color: #5a972d;
+}
+table {
+  margin-bottom: 24px;
+  width: 100%;
+  font-size: 1.09em;
+}
+td {
+  padding: 8px 6px;
+  vertical-align: top;
+}
+.judul {
+  font-weight: bold;
+  color: #40691a;
+  width: 42%;
+}
+.hasil-diagnosa {
+  margin-top: 26px;
+  margin-bottom: 48px;
+  padding: 18px;
+  background: #f2ffea;
+  border-radius: 10px;
+  font-size: 1.13em;
+  color: #2b5c05;
+  border: 1.3px solid #b3e5a3;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Posisi tanda tangan di pojok kanan */
+.ttd-container {
+  width: 320px;
+  text-align: right;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.btn-print-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 22px; /* Jarak setelah ttd */
+}
+.btn-print {
+  padding: 10px 32px;
+  background: linear-gradient(90deg, #8fd86c 40%, #5a972d 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1em;
+  text-decoration: none;
+  transition: background 0.2s;
+  box-shadow: 0 2px 5px rgba(120, 160, 60, 0.09);
+  cursor: pointer;
+}
+.btn-print:hover {
+  background: linear-gradient(90deg, #5a972d 30%, #7ebd4e 100%);
+}
+@media print {
+  .btn-print-container {
+    display: none !important;
+  }
+  .laporan-container {
+    box-shadow: none;
+    margin: 0;
+    width: 100%;
+    padding: 0 20mm 40mm 20mm;
+  }
+}

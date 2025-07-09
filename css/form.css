@@ -1,0 +1,51 @@
+.form-hamster {
+  max-width: 400px;
+  margin: 40px auto;
+  background: #f8ffe5;
+  padding: 28px 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(167, 212, 119, 0.08);
+}
+.form-hamster label {
+  font-weight: 600;
+  color: #6c8f3f;
+}
+.form-hamster input,
+.form-hamster select {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 4px;
+  margin-bottom: 14px;
+  border: 1.5px solid #a7d477;
+  border-radius: 7px;
+  font-size: 1rem;
+  background: #fff;
+}
+.form-hamster button,
+.form-hamster .btn-batal {
+  background: #a7d477;
+  color: #222;
+  padding: 8px 22px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  border: 1.5px solid #7ea23b;
+  transition: background 0.2s, color 0.2s;
+  margin-right: 8px;
+  cursor: pointer;
+  display: inline-block;
+}
+.form-hamster button:hover,
+.form-hamster .btn-batal:hover {
+  background: #7ea23b;
+  color: #fff;
+}
+.judul-form {
+  text-align: center;
+  color: #6c8f3f;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  letter-spacing: 1px;
+}

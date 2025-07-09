@@ -1,0 +1,184 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f8ffe5;
+  margin: 0;
+  min-height: 100vh;
+}
+.header-penyakit {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+  margin-bottom: 10px;
+  min-height: 60px;
+  position: relative;
+}
+.judul-penyakit {
+  color: #6c8f3f;
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0;
+  flex: 1;
+  text-align: center;
+}
+.btn-logout {
+  margin-left: 16px;
+  padding: 6px 22px;
+  border: 2px solid #222;
+  border-radius: 20px;
+  background: #fff;
+  color: #222;
+  font-size: 1rem;
+  font-style: italic;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+.btn-kembali {
+  background: #a7d477;
+  color: #222;
+  padding: 7px 18px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  margin-left: 32px;
+  margin-right: 16px;
+  transition: background 0.2s, color 0.2s;
+  box-shadow: 0 2px 8px rgba(167, 212, 119, 0.08);
+  display: flex;
+  align-items: center;
+}
+.btn-kembali:hover {
+  background: #7ea23b;
+  color: #fff;
+}
+.table-page-container {
+  max-width: 900px;
+  margin: 16px auto 0 auto; /* Lebih ke atas */
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(160, 132, 247, 0.08);
+  padding: 24px 24px 20px 24px;
+}
+
+.table-header h1 {
+  text-align: center;
+  color: #6c8f3f;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  letter-spacing: 1px;
+}
+
+.table-main {
+  width: 100%;
+}
+
+.tambah-penyakit-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2px; /* Dekatkan ke tabel */
+  margin-top: 0;
+}
+
+.btn-tambah {
+  background: #a7d477;
+  color: #222;
+  padding: 8px 18px;
+  border-radius: 7px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  border: 1.5px solid #7ea23b;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  margin-bottom: 0;
+  box-shadow: 0 2px 8px rgba(167, 212, 119, 0.08);
+}
+.btn-tambah:hover {
+  background: #7ea23b;
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(167, 212, 119, 0.18);
+}
+
+.table-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 0; /* Hilangkan jarak atas tabel */
+}
+
+.data-table {
+  border-collapse: collapse;
+  width: 100%; /* Ubah dari 90% ke 100% agar maksimal */
+  min-width: 700px; /* Perbesar minimal lebar tabel */
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+}
+
+.data-table th,
+.data-table td {
+  padding: 14px 18px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.data-table th {
+  background: #a7d477;
+  color: #222;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.data-table tr:last-child td {
+  border-bottom: none;
+}
+
+.data-table tr:hover td {
+  background: #f3ffe0;
+  transition: background 0.2s;
+}
+
+.btn-edit,
+.btn-hapus {
+  padding: 4px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  margin-right: 6px;
+  transition: background 0.2s, color 0.2s;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+}
+.btn-edit {
+  background: #a7d477;
+  color: #222;
+  border: 1px solid #7ea23b;
+}
+.btn-edit:hover {
+  background: #7ea23b;
+  color: #fff;
+}
+.btn-hapus {
+  background: #ff748b;
+  color: #fff;
+  border: 1px solid #ff748b;
+}
+.btn-hapus:hover {
+  background: #d63a4a;
+  color: #fff;
+}
+.logout-container {
+  margin-right: 32px;
+  display: flex;
+  align-items: center;
+}

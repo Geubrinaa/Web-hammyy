@@ -1,0 +1,122 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f8fff0;
+  margin: 0;
+  padding: 0;
+}
+
+.outer-gejala-container {
+  max-width: 960px;
+  margin: 30px auto;
+  border-radius: 14px;
+  background: #fff;
+  padding: 30px 0 24px 0;
+  box-shadow: 0 2px 12px rgba(120, 160, 60, 0.08);
+}
+
+.judul-gejala {
+  text-align: center;
+  margin: 24px 0 22px 0;
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  color: #5a972d;
+}
+
+.gejala-kategori-container {
+  background: #f5fbe8;
+  border-radius: 11px;
+  margin: 0 26px;
+  padding: 22px 22px 22px 22px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px 32px;
+  justify-content: flex-start;
+}
+
+.kategori-blok {
+  min-width: 210px;
+  flex: 1 1 220px;
+  max-width: 270px;
+}
+
+.kategori-header {
+  font-size: 1.08em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #40691a;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.kategori-header .icon {
+  font-size: 1.1em;
+}
+
+.gejala-bubble-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 8px;
+}
+
+.gejala-bubble {
+  display: flex;
+  align-items: center;
+  border: 1.5px solid #b8dba9;
+  border-radius: 18px;
+  padding: 6px 14px;
+  background: #fff;
+  font-size: 1em;
+  margin-bottom: 2px;
+  cursor: pointer;
+  color: #3a5820;
+  user-select: none;
+  transition: background 0.13s, color 0.13s, border 0.13s;
+}
+
+.gejala-bubble input[type="checkbox"] {
+  accent-color: #7ebd4e;
+  margin-right: 8px;
+}
+
+.gejala-bubble input[type="checkbox"]:checked + span,
+.gejala-bubble input[type="checkbox"]:checked ~ span {
+  color: #fff;
+  background: #8fd86c;
+  border-radius: 10px;
+  padding: 0 5px;
+}
+
+.gejala-bubble input[type="checkbox"]:checked {
+  accent-color: #5a972d;
+}
+
+.gejala-bubble:hover {
+  background: #e9fbe4;
+  border-color: #8fd86c;
+}
+
+.btn-lanjut-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+}
+
+.btn-lanjut {
+  font-size: 1.05em;
+  padding: 10px 38px;
+  border-radius: 18px;
+  border: none;
+  background: linear-gradient(90deg, #8fd86c 40%, #5a972d 100%);
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(120, 160, 60, 0.07);
+  transition: background 0.16s;
+}
+
+.btn-lanjut:hover {
+  background: linear-gradient(90deg, #5a972d 30%, #7ebd4e 100%);
+}
